@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3573CB682537D233008B1C9C /* signup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3573CB672537D233008B1C9C /* signup.swift */; };
 		CB048F7E2537CB1900C0CCB4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB048F7D2537CB1900C0CCB4 /* AppDelegate.swift */; };
 		CB048F802537CB1900C0CCB4 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB048F7F2537CB1900C0CCB4 /* SceneDelegate.swift */; };
 		CB048F822537CB1900C0CCB4 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB048F812537CB1900C0CCB4 /* ContentView.swift */; };
@@ -35,6 +36,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3573CB672537D233008B1C9C /* signup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = signup.swift; sourceTree = "<group>"; };
 		CB048F7A2537CB1900C0CCB4 /* Transform.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Transform.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CB048F7D2537CB1900C0CCB4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CB048F7F2537CB1900C0CCB4 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -99,6 +101,7 @@
 		CB048F7C2537CB1900C0CCB4 /* Transform */ = {
 			isa = PBXGroup;
 			children = (
+				3573CB672537D233008B1C9C /* signup.swift */,
 				CB048F7D2537CB1900C0CCB4 /* AppDelegate.swift */,
 				CB048F7F2537CB1900C0CCB4 /* SceneDelegate.swift */,
 				CB048F812537CB1900C0CCB4 /* ContentView.swift */,
@@ -199,7 +202,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1150;
-				LastUpgradeCheck = 1150;
+				LastUpgradeCheck = 1200;
 				ORGANIZATIONNAME = "Ilan Harari";
 				TargetAttributes = {
 					CB048F792537CB1900C0CCB4 = {
@@ -268,6 +271,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CB048F7E2537CB1900C0CCB4 /* AppDelegate.swift in Sources */,
+				3573CB682537D233008B1C9C /* signup.swift in Sources */,
 				CB048F802537CB1900C0CCB4 /* SceneDelegate.swift in Sources */,
 				CB048F822537CB1900C0CCB4 /* ContentView.swift in Sources */,
 			);
@@ -342,6 +346,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -402,6 +407,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
