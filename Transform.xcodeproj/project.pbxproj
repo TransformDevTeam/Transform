@@ -23,6 +23,7 @@
 		CB048F8A2537CB1E00C0CCB4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CB048F882537CB1E00C0CCB4 /* LaunchScreen.storyboard */; };
 		CB048F952537CB1E00C0CCB4 /* TransformTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB048F942537CB1E00C0CCB4 /* TransformTests.swift */; };
 		CB048FA02537CB1E00C0CCB4 /* TransformUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB048F9F2537CB1E00C0CCB4 /* TransformUITests.swift */; };
+		CB617ADB253D1C7200A07382 /* EndOfDayCheckin.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB617ADA253D1C7200A07382 /* EndOfDayCheckin.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -65,6 +66,7 @@
 		CB048F9B2537CB1E00C0CCB4 /* TransformUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TransformUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CB048F9F2537CB1E00C0CCB4 /* TransformUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransformUITests.swift; sourceTree = "<group>"; };
 		CB048FA12537CB1E00C0CCB4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CB617ADA253D1C7200A07382 /* EndOfDayCheckin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EndOfDayCheckin.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -134,6 +136,7 @@
 				CB048F7D2537CB1900C0CCB4 /* AppDelegate.swift */,
 				CB048F7F2537CB1900C0CCB4 /* SceneDelegate.swift */,
 				CB048F812537CB1900C0CCB4 /* ContentView.swift */,
+				CB617ADA253D1C7200A07382 /* EndOfDayCheckin.swift */,
 				CB048F832537CB1E00C0CCB4 /* Assets.xcassets */,
 				CB048F882537CB1E00C0CCB4 /* LaunchScreen.storyboard */,
 				CB048F8B2537CB1E00C0CCB4 /* Info.plist */,
@@ -310,6 +313,7 @@
 				35B79861255B24FD008273C2 /* AudioPlayer.swift in Sources */,
 				CB048F802537CB1900C0CCB4 /* SceneDelegate.swift in Sources */,
 				CB048F822537CB1900C0CCB4 /* ContentView.swift in Sources */,
+				CB617ADB253D1C7200A07382 /* EndOfDayCheckin.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
