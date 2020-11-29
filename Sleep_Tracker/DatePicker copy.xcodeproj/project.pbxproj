@@ -206,7 +206,7 @@
 					};
 				};
 			};
-			buildConfigurationList = AC8A59A52532E2890041F157 /* Build configuration list for PBXProject "DatePicker" */;
+			buildConfigurationList = AC8A59A52532E2890041F157 /* Build configuration list for PBXProject "DatePicker copy" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -438,6 +438,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = DatePicker/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -456,6 +457,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = DatePicker/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -550,7 +552,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		AC8A59A52532E2890041F157 /* Build configuration list for PBXProject "DatePicker" */ = {
+		AC8A59A52532E2890041F157 /* Build configuration list for PBXProject "DatePicker copy" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				AC8A59D22532E28B0041F157 /* Debug */,
