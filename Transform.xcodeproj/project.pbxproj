@@ -24,6 +24,7 @@
 		CB048F952537CB1E00C0CCB4 /* TransformTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB048F942537CB1E00C0CCB4 /* TransformTests.swift */; };
 		CB048FA02537CB1E00C0CCB4 /* TransformUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB048F9F2537CB1E00C0CCB4 /* TransformUITests.swift */; };
 		CB617ADB253D1C7200A07382 /* EndOfDayCheckin.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB617ADA253D1C7200A07382 /* EndOfDayCheckin.swift */; };
+		CBE16B82257440C100B0F7B2 /* LandingPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBE16B81257440C100B0F7B2 /* LandingPage.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -67,6 +68,7 @@
 		CB048F9F2537CB1E00C0CCB4 /* TransformUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransformUITests.swift; sourceTree = "<group>"; };
 		CB048FA12537CB1E00C0CCB4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CB617ADA253D1C7200A07382 /* EndOfDayCheckin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EndOfDayCheckin.swift; sourceTree = "<group>"; };
+		CBE16B81257440C100B0F7B2 /* LandingPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandingPage.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -135,6 +137,7 @@
 				3573CB672537D233008B1C9C /* signup.swift */,
 				CB048F7D2537CB1900C0CCB4 /* AppDelegate.swift */,
 				CB048F7F2537CB1900C0CCB4 /* SceneDelegate.swift */,
+				CBE16B81257440C100B0F7B2 /* LandingPage.swift */,
 				CB048F812537CB1900C0CCB4 /* ContentView.swift */,
 				CB617ADA253D1C7200A07382 /* EndOfDayCheckin.swift */,
 				CB048F832537CB1E00C0CCB4 /* Assets.xcassets */,
@@ -304,6 +307,7 @@
 			files = (
 				CB048F7E2537CB1900C0CCB4 /* AppDelegate.swift in Sources */,
 				35B79859255B2475008273C2 /* Helper.swift in Sources */,
+				CBE16B82257440C100B0F7B2 /* LandingPage.swift in Sources */,
 				35B79857255B246B008273C2 /* RecordingList.swift in Sources */,
 				35B7985F255B24F1008273C2 /* RecordingDataModel.swift in Sources */,
 				35B7985D255B24E4008273C2 /* Extensions.swift in Sources */,
