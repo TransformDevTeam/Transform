@@ -10,7 +10,8 @@ import SwiftUI
 
 
 struct checkin: View {
-    @State var answers: String = ""
+    
+    @State var answer: String = ""
     @State var qIndex = 0
     let questions = ["What are you grateful for in the present moment?",
                     "Who are you checking in on today?",
@@ -23,12 +24,15 @@ struct checkin: View {
     
     
     var body: some View {
+        Form{
+            
+        
         ZStack(content: {
             RoundedRectangle(cornerRadius: 10.0).fill().edgesIgnoringSafeArea([.all])
             VStack(alignment: .center) {
                        Text(questions[qIndex]).foregroundColor(Color.white).lineLimit(5).padding(20.0)
                         .minimumScaleFactor(0.5).font(.title).multilineTextAlignment(.center)
-                       TextField("type here...", text: $answers)
+                       TextField("type here...", text: $answer)
                        .padding()
                        .textFieldStyle(RoundedBorderTextFieldStyle())
                        
@@ -46,7 +50,7 @@ struct checkin: View {
                    }
                    .padding()
         }).foregroundColor(Color.blue)
-        
+        }
     }
 
     func updateIndex() {

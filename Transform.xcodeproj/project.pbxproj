@@ -25,6 +25,7 @@
 		CB048FA02537CB1E00C0CCB4 /* TransformUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB048F9F2537CB1E00C0CCB4 /* TransformUITests.swift */; };
 		CB617ADB253D1C7200A07382 /* EndOfDayCheckin.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB617ADA253D1C7200A07382 /* EndOfDayCheckin.swift */; };
 		CBE16B82257440C100B0F7B2 /* LandingPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBE16B81257440C100B0F7B2 /* LandingPage.swift */; };
+		CBECD02C2574561F00808CBD /* Checkin.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBECD02B2574561F00808CBD /* Checkin.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -69,6 +70,7 @@
 		CB048FA12537CB1E00C0CCB4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CB617ADA253D1C7200A07382 /* EndOfDayCheckin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EndOfDayCheckin.swift; sourceTree = "<group>"; };
 		CBE16B81257440C100B0F7B2 /* LandingPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandingPage.swift; sourceTree = "<group>"; };
+		CBECD02B2574561F00808CBD /* Checkin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Checkin.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -144,6 +146,7 @@
 				CB048F882537CB1E00C0CCB4 /* LaunchScreen.storyboard */,
 				CB048F8B2537CB1E00C0CCB4 /* Info.plist */,
 				CB048F852537CB1E00C0CCB4 /* Preview Content */,
+				CBECD02B2574561F00808CBD /* Checkin.swift */,
 			);
 			path = Transform;
 			sourceTree = "<group>";
@@ -314,6 +317,7 @@
 				35B79863255B2508008273C2 /* AudioRecorder.swift in Sources */,
 				3573CB682537D233008B1C9C /* signup.swift in Sources */,
 				35B79855255B245D008273C2 /* ContentViewAudio.swift in Sources */,
+				CBECD02C2574561F00808CBD /* Checkin.swift in Sources */,
 				35B79861255B24FD008273C2 /* AudioPlayer.swift in Sources */,
 				CB048F802537CB1900C0CCB4 /* SceneDelegate.swift in Sources */,
 				CB048F822537CB1900C0CCB4 /* ContentView.swift in Sources */,
