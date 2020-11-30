@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AC4EE055257475C800B37F54 /* DatePicker copy in Resources */ = {isa = PBXBuildFile; fileRef = AC4EE054257475C800B37F54 /* DatePicker copy */; };
 		AC8A59AE2532E2890041F157 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC8A59AD2532E2890041F157 /* AppDelegate.swift */; };
 		AC8A59B02532E2890041F157 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC8A59AF2532E2890041F157 /* SceneDelegate.swift */; };
 		AC8A59B22532E2890041F157 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC8A59B12532E2890041F157 /* ViewController.swift */; };
@@ -35,6 +36,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		AC4EE054257475C800B37F54 /* DatePicker copy */ = {isa = PBXFileReference; lastKnownFileType = folder; path = "DatePicker copy"; sourceTree = "<group>"; };
 		AC8A59AA2532E2890041F157 /* DatePicker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DatePicker.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AC8A59AD2532E2890041F157 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AC8A59AF2532E2890041F157 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -79,6 +81,7 @@
 		AC8A59A12532E2890041F157 = {
 			isa = PBXGroup;
 			children = (
+				AC4EE054257475C800B37F54 /* DatePicker copy */,
 				AC8A59AC2532E2890041F157 /* DatePicker */,
 				AC8A59C32532E28B0041F157 /* DatePickerTests */,
 				AC8A59CE2532E28B0041F157 /* DatePickerUITests */,
@@ -206,7 +209,7 @@
 					};
 				};
 			};
-			buildConfigurationList = AC8A59A52532E2890041F157 /* Build configuration list for PBXProject "DatePicker" */;
+			buildConfigurationList = AC8A59A52532E2890041F157 /* Build configuration list for PBXProject "DatePicker copy" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -233,6 +236,7 @@
 			files = (
 				AC8A59BA2532E28B0041F157 /* LaunchScreen.storyboard in Resources */,
 				AC8A59B72532E28B0041F157 /* Assets.xcassets in Resources */,
+				AC4EE055257475C800B37F54 /* DatePicker copy in Resources */,
 				AC8A59B52532E2890041F157 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -550,7 +554,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		AC8A59A52532E2890041F157 /* Build configuration list for PBXProject "DatePicker" */ = {
+		AC8A59A52532E2890041F157 /* Build configuration list for PBXProject "DatePicker copy" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				AC8A59D22532E28B0041F157 /* Debug */,

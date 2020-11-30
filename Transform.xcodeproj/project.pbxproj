@@ -15,6 +15,13 @@
 		35B7985F255B24F1008273C2 /* RecordingDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35B7985E255B24F1008273C2 /* RecordingDataModel.swift */; };
 		35B79861255B24FD008273C2 /* AudioPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35B79860255B24FD008273C2 /* AudioPlayer.swift */; };
 		35B79863255B2508008273C2 /* AudioRecorder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35B79862255B2508008273C2 /* AudioRecorder.swift */; };
+		AC4C27BA2574768D0037B8F0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC4C27B12574768D0037B8F0 /* ViewController.swift */; };
+		AC4C27BB2574768D0037B8F0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AC4C27B22574768D0037B8F0 /* Assets.xcassets */; };
+		AC4C27BC2574768D0037B8F0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC4C27B32574768D0037B8F0 /* LaunchScreen.storyboard */; };
+		AC4C27BD2574768D0037B8F0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC4C27B52574768D0037B8F0 /* Main.storyboard */; };
+		AC4C27BE2574768D0037B8F0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC4C27B72574768D0037B8F0 /* AppDelegate.swift */; };
+		AC4C27BF2574768D0037B8F0 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = AC4C27B82574768D0037B8F0 /* Info.plist */; };
+		AC4C27C02574768D0037B8F0 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC4C27B92574768D0037B8F0 /* SceneDelegate.swift */; };
 		CB048F7E2537CB1900C0CCB4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB048F7D2537CB1900C0CCB4 /* AppDelegate.swift */; };
 		CB048F802537CB1900C0CCB4 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB048F7F2537CB1900C0CCB4 /* SceneDelegate.swift */; };
 		CB048F822537CB1900C0CCB4 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB048F812537CB1900C0CCB4 /* ContentView.swift */; };
@@ -52,6 +59,13 @@
 		35B7985E255B24F1008273C2 /* RecordingDataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordingDataModel.swift; sourceTree = "<group>"; };
 		35B79860255B24FD008273C2 /* AudioPlayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioPlayer.swift; sourceTree = "<group>"; };
 		35B79862255B2508008273C2 /* AudioRecorder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioRecorder.swift; sourceTree = "<group>"; };
+		AC4C27B12574768D0037B8F0 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		AC4C27B22574768D0037B8F0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AC4C27B42574768D0037B8F0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AC4C27B62574768D0037B8F0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AC4C27B72574768D0037B8F0 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		AC4C27B82574768D0037B8F0 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AC4C27B92574768D0037B8F0 /* SceneDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		CB048F7A2537CB1900C0CCB4 /* Transform.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Transform.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CB048F7D2537CB1900C0CCB4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CB048F7F2537CB1900C0CCB4 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -108,9 +122,25 @@
 			path = Audio;
 			sourceTree = "<group>";
 		};
+		AC4C27B02574768D0037B8F0 /* DatePicker copy */ = {
+			isa = PBXGroup;
+			children = (
+				AC4C27B12574768D0037B8F0 /* ViewController.swift */,
+				AC4C27B22574768D0037B8F0 /* Assets.xcassets */,
+				AC4C27B32574768D0037B8F0 /* LaunchScreen.storyboard */,
+				AC4C27B52574768D0037B8F0 /* Main.storyboard */,
+				AC4C27B72574768D0037B8F0 /* AppDelegate.swift */,
+				AC4C27B82574768D0037B8F0 /* Info.plist */,
+				AC4C27B92574768D0037B8F0 /* SceneDelegate.swift */,
+			);
+			name = "DatePicker copy";
+			path = "Sleep_Tracker/DatePicker copy";
+			sourceTree = "<group>";
+		};
 		CB048F712537CB1900C0CCB4 = {
 			isa = PBXGroup;
 			children = (
+				AC4C27B02574768D0037B8F0 /* DatePicker copy */,
 				35B79853255B23F7008273C2 /* Audio */,
 				CB048F7C2537CB1900C0CCB4 /* Transform */,
 				CB048F932537CB1E00C0CCB4 /* TransformTests */,
@@ -277,7 +307,11 @@
 			files = (
 				CB048F8A2537CB1E00C0CCB4 /* LaunchScreen.storyboard in Resources */,
 				CB048F872537CB1E00C0CCB4 /* Preview Assets.xcassets in Resources */,
+				AC4C27BB2574768D0037B8F0 /* Assets.xcassets in Resources */,
+				AC4C27BD2574768D0037B8F0 /* Main.storyboard in Resources */,
+				AC4C27BC2574768D0037B8F0 /* LaunchScreen.storyboard in Resources */,
 				CB048F842537CB1E00C0CCB4 /* Assets.xcassets in Resources */,
+				AC4C27BF2574768D0037B8F0 /* Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -306,10 +340,13 @@
 				35B79859255B2475008273C2 /* Helper.swift in Sources */,
 				35B79857255B246B008273C2 /* RecordingList.swift in Sources */,
 				35B7985F255B24F1008273C2 /* RecordingDataModel.swift in Sources */,
+				AC4C27BE2574768D0037B8F0 /* AppDelegate.swift in Sources */,
+				AC4C27C02574768D0037B8F0 /* SceneDelegate.swift in Sources */,
 				35B7985D255B24E4008273C2 /* Extensions.swift in Sources */,
 				35B79863255B2508008273C2 /* AudioRecorder.swift in Sources */,
 				3573CB682537D233008B1C9C /* signup.swift in Sources */,
 				35B79855255B245D008273C2 /* ContentViewAudio.swift in Sources */,
+				AC4C27BA2574768D0037B8F0 /* ViewController.swift in Sources */,
 				35B79861255B24FD008273C2 /* AudioPlayer.swift in Sources */,
 				CB048F802537CB1900C0CCB4 /* SceneDelegate.swift in Sources */,
 				CB048F822537CB1900C0CCB4 /* ContentView.swift in Sources */,
@@ -349,6 +386,22 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
+		AC4C27B32574768D0037B8F0 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AC4C27B42574768D0037B8F0 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		AC4C27B52574768D0037B8F0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AC4C27B62574768D0037B8F0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
 		CB048F882537CB1E00C0CCB4 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
