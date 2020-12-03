@@ -2,7 +2,7 @@
 //  Checkin.swift
 //  Transform
 //
-//  Created by Ilan Harari on 11/29/20.
+//  Created by Ilan Harari
 //  Copyright © 2020 Ilan Harari. All rights reserved.
 //
 
