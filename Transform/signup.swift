@@ -16,10 +16,10 @@ struct Signup: View {
     // MARK: - View
     var body: some View {
         VStack() {
+            
             Text("Sign up")
                 .font(.largeTitle).foregroundColor(Color.black)
                 .padding([.top, .bottom], -7.0)
-                
                 .shadow(radius: 10.0, x: 20, y: 10)
                         
             VStack(alignment: .leading, spacing: 15) {
@@ -46,18 +46,14 @@ struct Signup: View {
                     .frame(width: 300, height: 50)
                     .cornerRadius(15.0)
                     .shadow(radius: 10.0, x: 20, y: 10)
+                    .background(Color.blue).cornerRadius(100)
                 
             }.padding(.top, 50)
-
-
-
             
  
             
        
             }
-            
-
         }
         
         
