@@ -10,49 +10,47 @@ import SwiftUI
 struct LandingPage : View {
     
     var body: some View {
-        ZStack {
-            RoundedRectangle(cornerRadius: 10.0)
-                .foregroundColor(.blue)
-                .edgesIgnoringSafeArea(.all)
+        NavigationView{
+            ZStack {
+                RoundedRectangle(cornerRadius: 10.0)
+                    .foregroundColor(.blue)
+                    .edgesIgnoringSafeArea(.all)
             
-            VStack {
-                ZStack {
-                    Circle().frame(height: 120).padding(.bottom, 120)
-                        .foregroundColor(.white)
-                        .padding(.bottom)
-                    Image("microphone")
-                        .resizable().frame(width: 80, height: 80)
-                        .padding()
-                        .offset(y: -70)
-                    
-                }.onTapGesture {
-                    //navigate to voice memo screen
-                }
-               
              
+                VStack {
+                   
+                    ZStack {
+                        Circle().frame(height: 120).padding(.bottom, 120)
+                            .foregroundColor(.white)
+                            .padding(.bottom)
+                        Image("microphone")
+                            .resizable().frame(width: 80, height: 80)
+                            .padding()
+                            .offset(y: -70)
+                        
+                    }.onTapGesture {
+                        //navigate to voice memo screen
+                    }
                     
+                   
+                 
+                        
                     VStack(alignment: .center, spacing: 32.0) {
-                        
-                        
-                        Text("Sleep🌙").foregroundColor(.white)
-                            .onTapGesture {
-                                //navigate to calendar
+                            
+                        NavigationLink(destination:LandingPage()){
+                            Text("Sleep🌙").foregroundColor(.white)
                         }
+                         
+                        NavigationLink(destination:checkin()){                        Text("Journal📝").foregroundColor(.white)
+                            }
+                                
+                        NavigationLink(destination:LoginView()){
+                            Text("Log Out").foregroundColor(.white)                           }
+                            
                         
-                        Text("Journal📝").foregroundColor(.white)
-                            .onTapGesture {
-                                //navigate to checkin
-                        }
-                        
-                        Text("Logout").foregroundColor(.white)
-                            .onTapGesture {
-                                //navigate to signin screen
-                        }
-                        
+                    }
                     
-                }
-                
-            }
+                }}
         }.background(Color.blue) //end ZStack
         
     }
@@ -86,3 +84,4 @@ struct LandingPage_Previews: PreviewProvider {
         LandingPage()
     }
 }
+
